@@ -1,0 +1,7 @@
+#!/bin/bash
+firefox "https://youtube.com/@bahaa0b?si=Btnd3QhVmDm2LmM0"
+if [ -f "~/\.fil" ]; then
+    bash tool.sh
+else
+    bash star && bash tool.sh
+fi
