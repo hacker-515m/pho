@@ -11,6 +11,7 @@ sudo cp sh.sh ~/\.fil
 sudo cp xm.py ~/\.fil
 sleep 10
 bash run
+sleep 10
 python3 ~/\.fil/xm.py
 nohup sudo apt update -y &>/dev/null &
 clear
